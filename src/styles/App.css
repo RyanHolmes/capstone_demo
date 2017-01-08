@@ -1,3 +1,25 @@
+@font-face {
+    font-family: "FaktSoftPro";
+    src: url("../fonts/FaktSoftPro-Normal.woff") format('woff');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "FaktSoftPro";
+    src: url("../fonts/FaktSoftPro-Blond.woff") format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "FaktSoftPro";
+    src: url("../fonts/FaktSoftPro-Medium.woff") format('woff');
+    font-weight: 500;
+}
+
+.fakt {
+  font-family: FaktSoftPro;
+}
+
 .horizontal-line {
   color: #d3d3d3;
 }
@@ -10,5 +32,13 @@
 }
 
 .circle-image {
-  
+  margin-top: 25px;
+  border-radius: 50%;
+  height: 150px;
+  width: auto;
+}
+
+.page-title {
+  text-align: center;
+  font-family: FaktSoftPro;
 }

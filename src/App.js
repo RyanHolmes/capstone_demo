@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+import Bs, { Col } from 'react-bootstrap';
 import './styles/App.css';
+
 import UserCard from './components/UserCard'
+import Landing from './components/Landing'
 
 class App extends Component {
   constructor(props){
@@ -10,7 +13,9 @@ class App extends Component {
 
   render() {
     return (
-      <UserCard img="../images/ryan.jpg" name="Ryan Holmes"></UserCard>
+      <div>
+        <Landing></Landing>
+      </div>
     );
   }
 }
