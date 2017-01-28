@@ -24,7 +24,7 @@ class Landing extends Component {
           <UserCard img="../images/ryan.jpg" name="Ian Wood"></UserCard>
           <UserCard img="../images/ryan.jpg" name="Andrea Zagar"></UserCard>
           <br/>
-          <button onClick={this.scrollWin.bind(this)} className="button-pink">Begin Demo</button>
+          <div onClick={this.scrollWin.bind(this)} className="button-pink">Begin Demo</div>
         </div>
       </div>
     );

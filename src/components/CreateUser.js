@@ -19,7 +19,7 @@ class CreateUser extends Component {
         <div className="create-user-container">
           content here
           <br/>
-          <button onClick={this.scrollWin.bind(this)} className="button-pink">Continue</button>
+          <div onClick={this.scrollWin.bind(this)} className="button-pink">Continue</div>
         </div>
       </div>
     );
