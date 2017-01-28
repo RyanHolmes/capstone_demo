@@ -39,6 +39,24 @@
 }
 
 .page-title {
+  padding-top: 50px;
   text-align: center;
   font-family: FaktSoftPro;
+}
+
+.button-pink {
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12pt;
+  width: 120px;
+  height: 35px;
+  background: #FF5984;
+  color: white;
+  border-radius: 7px;
+  font-family: FaktSoftPro;
+}
+
+.button-pink:hover {
+  background: red;
 }

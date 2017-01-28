@@ -5,7 +5,10 @@
 }
 
 .landing-background {
-  margin-top: 100px;
+  /*TODO - margins messed up*/
+  margin-top: -20px;
+  height: 700px;
+  width: auto;
   background: lightblue;
 }
 

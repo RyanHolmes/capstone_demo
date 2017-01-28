@@ -16,6 +16,8 @@ class Landing extends Component {
           <UserCard img="../images/ryan.jpg" name="Ryan Holmes"></UserCard>
           <UserCard img="../images/ryan.jpg" name="Ian Wood"></UserCard>
           <UserCard img="../images/ryan.jpg" name="Andrea Zagar"></UserCard>
+          <br/>
+          <div className="button-pink">Begin Demo</div>
         </div>
       </div>
     );

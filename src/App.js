@@ -4,6 +4,8 @@ import './styles/App.css';
 
 import UserCard from './components/UserCard'
 import Landing from './components/Landing'
+import CreateUser from './components/CreateUser'
+import RecommendEvents from './components/RecommendEvents'
 
 class App extends Component {
   constructor(props){
@@ -15,6 +17,8 @@ class App extends Component {
     return (
       <div>
         <Landing></Landing>
+        <CreateUser></CreateUser>
+        <RecommendEvents></RecommendEvents>
       </div>
     );
   }
