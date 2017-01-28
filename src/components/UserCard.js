@@ -9,7 +9,7 @@ class UserCard extends Component {
       <div className="card user-card landing-container-item">
         <img src={ require('../images/ryan.jpg') } role="presentation" alt={this.props.name} className="circle-image"/>
         <hr className="horizontal-line"/>
-        <div class="fakt"> {this.props.name} </div>
+        <div className="fakt"> {this.props.name} </div>
       </div>
     );
   }

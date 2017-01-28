@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
-import Bs, { Col } from 'react-bootstrap';
+var Scroll  = require('react-scroll');
+// import Bs, { Col } from 'react-bootstrap';
 
 import '../styles/Landing.css';
 import UserCard from './UserCard';
 
 class Landing extends Component {
+
+  scrollWin(){
+    var scroll = Scroll.animateScroll;
+    scroll.scrollTo(700);
+  }
+
   render() {
     return (
       <div className="landing-background">
@@ -17,7 +24,7 @@ class Landing extends Component {
           <UserCard img="../images/ryan.jpg" name="Ian Wood"></UserCard>
           <UserCard img="../images/ryan.jpg" name="Andrea Zagar"></UserCard>
           <br/>
-          <div className="button-pink">Begin Demo</div>
+          <button onClick={this.scrollWin.bind(this)} className="button-pink">Begin Demo</button>
         </div>
       </div>
     );
