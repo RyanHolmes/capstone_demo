@@ -17,7 +17,7 @@ class CreateUser extends Component {
       <div className="create-user-background">
         <h1 className='page-title'> Create Users </h1>
         <div className="create-user-container">
-          content here
+          <UserCard img="../images/ryan.jpg" name="User 1"></UserCard>
           <br/>
           <div onClick={this.scrollWin.bind(this)} className="button-pink">Continue</div>
         </div>

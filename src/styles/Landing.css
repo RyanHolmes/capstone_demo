@@ -1,5 +1,5 @@
 .landing-container {
-  margin-left: 200px;
+  margin-left: 180px;
   width: 80%;
   height: 100%;
 }
@@ -9,11 +9,12 @@
   margin-top: -20px;
   height: 700px;
   width: auto;
-  background: lightblue;
+  background: #3CC6F2;
 }
 
 .landing-description {
   width: 80%;
   font-family: FaktSoftPro;
   margin-bottom: 25px;
+  text-align: center;
 }
